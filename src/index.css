@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glassCard{
+  background:  rgba(225,225,225,0.18);
+  box-shadow:  0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(225,225,225,0.18);
+}
+
+.weather-card {
+  max-width: 100%;
+  padding: 1rem;
+  background:  rgba(225,225,225,0.18);
+  box-shadow:  0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.location {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.time {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.info-item1 {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #a1d8ff, #3c8bd8);
+}
+
+.info-item2 {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #d8cfff, #8976cf);
+}
+
+.info-item p {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #cbd5e0;
+  margin: 1rem 0;
+}
+
+.conditions {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* MiniCard.css */
+
+.glassCard {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 100%; 
+  max-width: 10rem; 
+}
+
+.glassCard p {
+  margin: 0;
+  
+}
+
+.glassCard hr {
+  margin: 0.5rem 0;
+}
+
+.glassCard img {
+  width: 4rem; 
+  height: 4rem; 
+}

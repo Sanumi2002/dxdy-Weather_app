@@ -1,0 +1,71 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+.logo-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 0.25rem; 
+    padding: 0.5rem 1rem; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 2rem; 
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px; 
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .search-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .search-input {
+    flex: 1;
+    margin-left: 0.5rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .mini-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
